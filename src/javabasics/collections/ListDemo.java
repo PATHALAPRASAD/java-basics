@@ -15,6 +15,8 @@ public class ListDemo {
         names.add("srinu");
         System.out.println(names);
 
-        System.out.println(IntStream.range(1, 100).boxed().toList());
+        System.out.println(IntStream.range(1, 11).boxed().toList());
+
+        IntStream.range(1, 11).boxed().map(n->n*n).toList().forEach(System.out::println);
     }
 }
