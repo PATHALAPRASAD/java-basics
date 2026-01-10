@@ -33,4 +33,3 @@ public class SetDemo {
         System.out.println("Set after removing Bob: " + uniqueNames);
     }
 }
-
