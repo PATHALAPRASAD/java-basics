@@ -12,6 +12,7 @@ public class Practice {
         System.out.println(lowerCaseNames);
         List<Integer> namesLengths = names.stream().map(String::length).toList();
         System.out.println(namesLengths);
+        System.out.println(names.stream().map(name -> name.substring(0, 2)).toList());
         System.out.println(names.stream().map(name -> name.substring(2)).toList());
     }
 }
