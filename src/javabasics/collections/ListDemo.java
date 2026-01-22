@@ -10,13 +10,13 @@ public class ListDemo {
         System.out.println(numbers);
 
         List<String> names = new ArrayList<>();
-        names.add("prasad");
-        names.add("hema");
-        names.add("srinu");
+        names.add("Prasad");
+        names.add("Hema");
+        names.add("Srinu");
         System.out.println(names);
 
         System.out.println(IntStream.range(1, 11).boxed().toList());
 
-        IntStream.range(1, 51).boxed().map(n->n*n).toList().forEach(System.out::println);
+        IntStream.range(1, 51).boxed().map(n -> n * n).toList().forEach(System.out::println);
     }
 }
